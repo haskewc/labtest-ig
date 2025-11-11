@@ -1,7 +1,7 @@
 id: smart.who.int.ig-empty
 canonical: http://smart.who.int/ig-empty
 name: IGEmpty
-title: Empty IG
+title: Zimbabwe Test IG
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
 experimental: false
