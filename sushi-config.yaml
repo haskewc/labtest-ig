@@ -1,8 +1,8 @@
 id: smart.who.int.ig-empty
 canonical: http://smart.who.int/ig-empty
-name: IGEmpty
+name: LabTest 
 title: Zimbabwe Test IG
-description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
+description: A test IG built in Zimbabwe during the ToT workshop
 status: draft # draft | active | retired | unknown
 experimental: false
 version: 0.1.0
@@ -11,10 +11,10 @@ fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC-BY-SA-3.0-IGO # https://www.hl7.org/fhir/valueset-spdx-license.html
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#296 "Kiribati" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: WHO
-  url: http://who.int
+  name: MoHKI
+  url: http://kiribati.gov.ki
   # email: test@example.org
 
 dependencies:
@@ -27,11 +27,11 @@ dependencies:
   # See the zulip thread here: https://chat.fhir.org/#narrow/stream/215610-shorthand/search/transitive
   hl7.terminology: 5.5.0
   hl7.fhir.uv.extensions.r4: 5.1.0
-  hl7.fhir.uv.cql: 1.0.0
-  hl7.fhir.uv.crmi: 1.0.0
-  hl7.fhir.uv.sdc: 3.0.0
-  hl7.fhir.uv.cpg: 2.0.0
-  hl7.fhir.us.cqfmeasures: 5.0.0
+  # hl7.fhir.uv.cql: 1.0.0
+  # hl7.fhir.uv.crmi: 1.0.0
+  # hl7.fhir.uv.sdc: 3.0.0
+  # hl7.fhir.uv.cpg: 2.0.0
+  # hl7.fhir.us.cqfmeasures: 5.0.0
   # Actual dependencies
   smart.who.int.base:
     id: sb
