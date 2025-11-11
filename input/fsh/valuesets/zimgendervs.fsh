@@ -1,8 +1,7 @@
 ValueSet:     ZimGenderVS
 Id: ZimGenderVS
 Title: "Zimbabwe Gender Value Set"
-// Description: "Indicates the dominant hand."
-// * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
-* SCT#87683000  "Left handed (finding)"
-* SCT#46669005  "Right handed (finding)"
-* SCT#23088002  "Ambidextrous (finding)"
+Description: "Administrative Gender"
+* http://hl7.org/fhir/administrative-gender#male  "Blue"
+* http://hl7.org/fhir/administrative-gender#female  "Pink"
+* http://hl7.org/fhir/administrative-gender#unknown  "Not determined"
