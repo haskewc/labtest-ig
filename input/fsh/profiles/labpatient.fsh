@@ -20,6 +20,7 @@ Description: "Example of a profile of Patient"
 
 // Require at least one value inside the `name` element
 // * name 1..*
+* name 1..1
 * name.given 1..1
 * name.given ^short = "Patient's first name"
 
@@ -45,7 +46,8 @@ Description: "Example of a profile of Patient"
 * birthDate ^comment = "If exact date of birth is partially or completely unknown, Implementers SHALL populate this element with the date of birth information listed on the patient's government-issued identification."
 
 // Do not allow `gender` to be included.
-* gender 0..0
+* gender 1..1
+* gender from ZimGenderVS
 
 // Require a value from a specific value set be used for an element
 * maritalStatus from http://hl7.org/fhir/ValueSet/marital-status (required)
