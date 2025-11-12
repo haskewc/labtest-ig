@@ -1,0 +1,27 @@
+LabTest
+=========================================
+
+Generic: line 0, col 0, Warning - Illegal HTML: illegal html element: nark (insert content here</mark>.) (INVALID)
+Generic: line 0, col 0, Error - The link 'definitions.xml.zip' for "XML" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'definitions.json.zip' for "JSON" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'definitions.ttl.zip' for "TTL" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.xml.zip' for "XML" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.json.zip' for "JSON" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.ttl.zip' for "TTL" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - Illegal HTML: illegal html element: static_server_port ( e.g. http://localhost:8087) (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1548, Error - Wrong Display Name 'Kiribati' for http://unstats.un.org/unsd/methods/m49/m49.htm#296. Valid display is 'Kiribati (KIR)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1796, Warning - The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.5.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1971, Warning - The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 2298, Warning - The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 11316, Info - This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice) (INFORMATIONAL)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 11579, Info - This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice) (INFORMATIONAL)
+/work/fsh-generated/resources/StructureDefinition-Labpatient.json: line 1, col 20210, Error - Wrong Display Name 'Kiribati' for http://unstats.un.org/unsd/methods/m49/m49.htm#296. Valid display is 'Kiribati (KIR)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/StructureDefinition-Labpatient.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-ZimGenderVS.json: line 1, col 1700, Error - Wrong Display Name 'Kiribati' for http://unstats.un.org/unsd/methods/m49/m49.htm#296. Valid display is 'Kiribati (KIR)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ValueSet-ZimGenderVS.json: line 1, col 1821, Info - The display 'Blue' is not valid in the Code system 'Blue'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimGenderVS.json: line 1, col 1856, Info - The display 'Pink' is not valid in the Code system 'Pink'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimGenderVS.json: line 1, col 1902, Info - The display 'Not determined' is not valid in the Code system 'Not determined'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimGenderVS.json: line 1, col 1907, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+
+err = 3, warn = 7, info = 5
+IG Publisher Version: 2.0.26

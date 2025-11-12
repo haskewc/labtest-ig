@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Zimbabwe Gender Value Set Schema API",
+    "description": "JSON Schema for Zimbabwe Gender Value Set ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-ZimGenderVS.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-ZimGenderVS",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-ZimGenderVS.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-ZimGenderVS",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-ZimGenderVS.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-ZimGenderVS": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/ig-empty/ValueSet-ZimGenderVS.schema.json",
+        "title": "Zimbabwe Gender Value Set Schema",
+        "description": "JSON Schema for Zimbabwe Gender Value Set ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://hl7.org/fhir/administrative-gender#male",
+          "http://hl7.org/fhir/administrative-gender#female",
+          "http://hl7.org/fhir/administrative-gender#unknown"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Zimbabwe Gender Value Set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/ig-empty/ValueSet-ZimGenderVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/ig-empty/ValueSet-ZimGenderVS.displays.json",
+        "fhir:valueSet": "http://smart.who.int/ig-empty/ValueSet/ZimGenderVS",
+        "fhir:version": "0.1.0",
+        "fhir:expansionTimestamp": "2025-11-12T08:11:11+00:00"
+      }
+    }
+  }
+}

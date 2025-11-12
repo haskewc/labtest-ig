@@ -1,0 +1,36 @@
+LabTest : Validation Results
+=========================================
+
+err = 3, warn = 7, info = 5
+$--
+Generated $--. FHIR version $-- for smart.who.int.ig-empty#$-- (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 6 / 2 / 0
+ /work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 1 / 3 / 4
+ /work/fsh-generated/resources/StructureDefinition-Labpatient : 1 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ZimGenderVS : 1 / 1 / 4
+</table>
+== n/a ==
+WARNING: /work/output/business-processes.html: Illegal HTML: illegal html element: nark (insert content here</mark>.)
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 302, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 303, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 305, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 319, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 320, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 321, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+WARNING: /work/output/testing.html: Illegal HTML: illegal html element: static_server_port ( e.g. http://localhost:8087)
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'Kiribati' for http://unstats.un.org/unsd/methods/m49/m49.htm#296. Valid display is 'Kiribati (KIR)' (for the language(s) 'en-US')
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.5.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+INFORMATION: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition.resource[0]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition.resource[1]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-Labpatient.json ==
+ERROR: StructureDefinition/Labpatient: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'Kiribati' for http://unstats.un.org/unsd/methods/m49/m49.htm#296. Valid display is 'Kiribati (KIR)' (for the language(s) 'en-US')
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig-empty/StructureDefinition/Labpatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGenderVS.json ==
+ERROR: ValueSet/ZimGenderVS: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'Kiribati' for http://unstats.un.org/unsd/methods/m49/m49.htm#296. Valid display is 'Kiribati (KIR)' (for the language(s) 'en-US')
+INFORMATION: ValueSet/ZimGenderVS: ValueSet.compose.include[0].concept[0]: The display 'Blue' is not valid in the Code system 'Blue'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimGenderVS: ValueSet.compose.include[0].concept[1]: The display 'Pink' is not valid in the Code system 'Pink'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimGenderVS: ValueSet.compose.include[0].concept[2]: The display 'Not determined' is not valid in the Code system 'Not determined'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+WARNING: ValueSet/ZimGenderVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

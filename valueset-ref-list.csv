@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/marital-status,4.0.1,active,"2.16.840.1.113883.4.642.3.29",Marital Status Codes,MaritalStatus,"This value set defines the set of codes that can be used to indicate the marital status of a person.","StructureDefinition/Labpatient","THO (V3)"
+http://smart.who.int/ig-empty/ValueSet/ZimGenderVS,0.1.0,draft,,ZimGenderVS,Zimbabwe Gender Value Set,"Administrative Gender","StructureDefinition/Labpatient","hl7.fhir.r4.core"

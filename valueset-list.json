@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smart.who.int/ig-empty/ValueSet/ZimGenderVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ZimGenderVS",
+      "title" : "Zimbabwe Gender Value Set",
+      "description" : "Administrative Gender",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+    }
+  ]
+}
